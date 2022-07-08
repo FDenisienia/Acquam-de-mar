@@ -1,0 +1,151 @@
+
+.body-pileta {
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.video-fondo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background: rgba(14, 177, 184, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(14, 177, 184, 0.3);
+}
+
+.dropdown-menu-header {
+    background: rgba(14, 177, 184, 0.8);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(14, 177, 184, 0.3);
+
+}
+.dropdown-item:hover {
+    background-color: rgba(36, 120, 204, 0.5) !important;
+}
+
+
+
+.nav-link:hover {
+    color: rgb(36, 120, 204) !important;
+}
+
+
+.whatsapp {
+    position:fixed;
+    z-index: 2;
+    width:50px;
+    height:50px;
+    bottom:15px;
+    right:15px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius: 50%;
+    text-align:center;
+    font-size: 28px;
+  }
+
+.whatsapp:hover {
+    color: rgb(36, 120, 204) !important;
+}
+  
+
+.topacio {
+    background: rgba(14, 177, 184, 0.8);
+}
+
+
+.acquam {
+    color: yellow;
+}
+
+.card {
+    background: rgba(14, 177, 184, 0.8);
+}
+
+
+
+.footer {
+    background: rgba(14, 177, 184, 0.8);
+}
+
+.footer-a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-a:hover {
+    color: rgb(36, 120, 204) !important;
+    transition: .5s;
+}
+
+.navbar-brand:hover {
+    color: rgb(36, 120, 204) !important;
+    transition: .5s;
+}
+
+@media (max-width: 1200px) {
+    .img-carousel {
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .img-carousel {
+        height: 300px !important;
+    }
+
+    .services {
+        height: 500px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .img-carousel {
+        height: 700px !important;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .carousel-caption {
+        position: absolute;
+        top: 150px;
+    }
+
+    .carousel-item div {
+        margin-top: 140px;
+    }
+    
+}
+
+.carousel {
+    padding: 0 !important;
+}
+
+.instalamos {
+    background: rgba(14, 177, 184, 0.8);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+
